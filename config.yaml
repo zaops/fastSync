@@ -1,0 +1,24 @@
+server:
+  port: "8080"
+  host: "0.0.0.0"
+
+database:
+  type: "sqlite"
+  dsn: "./migration.db"
+
+redis:
+  addr: "localhost:6379"
+  password: ""
+  db: 0
+
+migration:
+  default_workers: 5
+  chunk_size: 1048576  # 1MB
+  max_retry: 3
+  retry_interval: "30s"
+
+logging:
+  level: "info"
+  file: "./logs/migration.log"
+  max_size: 100  # MB
+  max_backups: 5
