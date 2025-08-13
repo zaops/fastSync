@@ -73,10 +73,13 @@ fastdfs-migration-system/
   - HTTP服务器框架(Gin)
   - 基础测试框架
 
+### ✅ 已完成
+- [x] 项目初始化和基础架构搭建
+- [x] 数据库模型和存储层实现
+- [x] FastDFS客户端集成和连接管理
+
 ### 🚧 进行中
-- [ ] 数据库模型和存储层实现
-- [ ] FastDFS客户端集成
-- [ ] 核心迁移引擎开发
+- [ ] 核心迁移引擎开发 ⬅️ **下一个任务**
 
 ### 📋 待开发
 查看 `.kiro/specs/fastdfs-migration-system/tasks.md` 获取完整的任务列表
